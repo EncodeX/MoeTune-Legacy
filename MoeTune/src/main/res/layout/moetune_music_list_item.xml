@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:background="#00000000">
+        <TextView
+                android:id="@+id/music_list_duration"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="36dp"
+                android:layout_alignParentRight="true"
+                android:singleLine="true"
+                android:textColor="#2b7de1"
+                android:textSize="14sp"
+                android:gravity="right"
+                android:text="02:22"/>
+        <TextView
+                android:id="@+id/music_list_title"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="72dp"
+                android:layout_toLeftOf="@id/music_list_duration"
+                android:layout_alignParentLeft="true"
+                android:paddingRight="8dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:textColor="#2b7de1"
+                android:textSize="14sp"
+                android:text="Song Title Song Title"/>
+        <TextView
+                android:id="@+id/music_list_index"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toLeftOf="@id/music_list_title"
+                android:singleLine="true"
+                android:textColor="#2b7de1"
+                android:textSize="14sp"
+                android:layout_marginRight="-48dp"
+                android:gravity="right"
+                android:text="1"/>
+        <FrameLayout
+                android:id="@+id/music_list_playing_icon"
+                android:layout_width="16dp"
+                android:layout_height="16dp"
+                android:layout_centerVertical="true"
+                android:layout_alignRight="@id/music_list_index"
+                android:background="@drawable/icon_play"
+                android:visibility="gone"/>
+</RelativeLayout>

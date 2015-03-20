@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+	<item android:drawable="@drawable/shadow_gradient"
+	      android:left="130dip"
+			android:right="0dp"/>
+	<item android:drawable="@drawable/line_gradient"
+			android:bottom="3dip"
+			android:top="43dip"
+			android:left="130dip"
+			android:right="0dp"/>
+</layer-list>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<color name="navigation_drawer_selector_background">#CCFFFFFF</color>
+	<color name="navigation_drawer_selector_pressed">#992b7de1</color>
+	<drawable name="mode_list_item_text_pressed">#FFFFFF</drawable>
+	<drawable name="mode_list_item_text_default">#ec407a</drawable>
+	<color name="status_bar_color_default">#55000000</color>
+	<color name="status_bar_color_solid">#2b7de1</color>
+</resources>

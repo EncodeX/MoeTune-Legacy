@@ -1,0 +1,72 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context="moetune.activities.AuthActivity" android:background="#2b7de1">
+	<RelativeLayout android:layout_width="match_parent"
+	                android:layout_height="match_parent"
+	                android:layout_marginRight="32dp"
+	                android:layout_marginLeft="32dp"
+	                android:layout_marginTop="32dp"
+	                android:layout_marginBottom="32dp">
+		<Space android:layout_width="wrap_content"
+		       android:layout_height="wrap_content"
+		       android:layout_centerVertical="true"
+		       android:layout_centerHorizontal="true"
+		       android:id="@+id/center_space"/>
+		<EditText
+				android:layout_width="match_parent"
+				android:layout_height="36dp"
+				android:id="@+id/user_name_input"
+				android:layout_above="@id/center_space"
+				android:layout_centerHorizontal="true"
+				android:maxWidth="300dp"
+				android:layout_marginBottom="8dp"
+				android:hint="用户名/邮箱"
+				android:textColorHint="#66FFFFFF"
+				android:textColor="#FFFFFFFF"
+				android:textSize="14sp"
+				android:paddingLeft="12dp"
+				android:background="@drawable/auth_edit_text"
+				android:singleLine="true"
+				android:textCursorDrawable="@null"/>
+
+		<EditText
+				android:layout_width="match_parent"
+				android:layout_height="36dp"
+				android:id="@+id/user_password_input"
+				android:layout_centerHorizontal="true"
+				android:layout_below="@id/center_space"
+				android:maxWidth="300dp"
+				android:inputType="textPassword"
+				android:layout_marginTop="8dp"
+				android:hint="密码"
+				android:textColorHint="#66FFFFFF"
+				android:textColor="#FFFFFFFF"
+				android:textSize="14sp"
+				android:paddingLeft="12dp"
+				android:background="@drawable/auth_edit_text"
+				android:imeOptions="actionSend"
+				android:textCursorDrawable="@null"/>
+		<TextView android:layout_width="wrap_content"
+		          android:layout_height="wrap_content"
+		          android:layout_centerHorizontal="true"
+		          android:text="登入萌否电台"
+		          android:layout_above="@id/user_name_input"
+		          android:layout_marginBottom="64dp"
+		          android:textSize="28sp"
+		          android:textColor="#FFFFFF"/>
+		<Button android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="连接"
+		        android:id="@+id/login_button" android:layout_below="@+id/user_password_input"
+		        android:layout_centerHorizontal="true" android:layout_marginTop="36dp"
+		        android:minWidth="128dp" android:background="@drawable/moetune_button"
+				android:textColor="#FFFFFFFF"/>
+	</RelativeLayout>
+	<requestFocus/>
+	<WebView android:layout_width="wrap_content"
+	         android:layout_height="wrap_content"
+	         android:id="@+id/auth_web_view"
+	         android:visibility="gone"/>
+</RelativeLayout>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="boot_app_name">MoeTune</string>
+	<string name="title_section1">聆听</string>
+	<string name="title_section2">关于</string>
+	<string name="title_section3">退出</string>
+	<string name="navigation_drawer_open">打开菜单</string>
+	<string name="navigation_drawer_close">关闭菜单</string>
+	<string name="action_example">Example action</string>
+	<string name="action_settings">Settings</string>
+	<string name="title_activity_auth">AuthActivity</string>
+	<string name="hello_world">Hello world!</string>
+	<string name="title_activity_boot">BootActivity</string>
+	<string name="package_name">encodex.moetune.moetune</string>
+	<string name="app_version">0.2</string>
+	<string name="about_company">by UExperience Studio</string>
+	<string name="about_author">Encode.X</string>
+	<string name="icons_8_link">部分图标来自 <a href="http://icons8.com/">icons8.com</a></string>
+	<string name="author_info"><![CDATA[Code & UI Design by\nC4H4]]></string>
+	<string name="icon_designer_info">App Icon Design by\n深山完完_uryyyy</string>
+	<string name="album_loading">Loading…</string>
+	<string name="album_cannot_connect_wifi">不能连接Wifi，连接后将自动播放。</string>
+	<string name="now_playing_default">Now Playing</string>
+	<string name="time_duration_default">/ 00:00</string>
+	<string name="time_current_default">00:00</string>
+	<string name="album_name_default">Album Album Album</string>
+	<string name="artist_name_default">Artist Artist</string>
+	<string name="song_title_default">Song Title Song Title</string>
+	<string name="rate_me">觉得不错？给我评分</string>
+	<string name="playlist_title">播放列表</string>
+	<string name="playlist_swipe_hint">上划打开播放列表</string>
+</resources>

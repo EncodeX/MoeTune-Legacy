@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!-- Base application theme. -->
+	<style name="AppTheme.Base" parent="Theme.AppCompat.Light.NoActionBar">
+		<!-- Customize your theme here. -->
+	</style>
+
+	<style name="AppTheme" parent="AppTheme.Base">
+		<item name="colorPrimary">@color/primary_material_dark</item>
+		<item name="colorPrimaryDark">@color/primary_dark_material_dark</item>
+		<!--<item name="android:windowNoTitle">true</item>-->
+		<!--<item name="windowActionBar">false</item>-->
+	</style>
+
+	<style name="NotificationText">
+		<item name="android:textColor">?android:attr/textColorSecondary</item>
+	</style>
+
+	<style name="NotificationTitle">
+		<item name="android:textColor">?android:attr/textColorPrimary</item>
+	</style>
+
+	<style name="NotificationTitleBold">
+		<item name="android:textColor">?android:attr/textColorPrimary</item>
+		<item name="android:textStyle">bold</item>
+	</style>
+</resources>

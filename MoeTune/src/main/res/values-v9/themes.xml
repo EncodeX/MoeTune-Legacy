@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<style name="AppTheme" parent="AppTheme.Base">
+	</style>
+
+	<style name="NotificationText" parent="android:TextAppearance.StatusBar.EventContent"/>
+
+	<style name="NotificationTitle" parent="android:TextAppearance.StatusBar.EventContent.Title"/>
+
+	<style name="NotificationTitleBold" parent="android:TextAppearance.StatusBar.EventContent.Title">
+		<item name="android:textStyle">bold</item>
+	</style>
+</resources>
